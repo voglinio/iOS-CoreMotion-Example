@@ -12,6 +12,7 @@
 		6D4BABE51C5130A60042ADA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BABE31C5130A60042ADA0 /* Main.storyboard */; };
 		6D4BABE71C5130A60042ADA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BABE61C5130A60042ADA0 /* Assets.xcassets */; };
 		6D4BABEA1C5130A60042ADA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BABE81C5130A60042ADA0 /* LaunchScreen.storyboard */; };
+		ED34C2D9224E84AB00D319EC /* Whip.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED34C2D8224E84AA00D319EC /* Whip.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6D4BABE61C5130A60042ADA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D4BABE91C5130A60042ADA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D4BABEB1C5130A60042ADA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED34C2D8224E84AA00D319EC /* Whip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Whip.wav; path = ../../../Downloads/Whip.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6D43CF4C1C5A0086003EA4EF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				ED34C2D8224E84AA00D319EC /* Whip.wav */,
 				6D4BABDF1C5130A60042ADA0 /* AppDelegate.swift */,
 				6D4BABE11C5130A60042ADA0 /* ViewController.swift */,
 			);
@@ -128,6 +131,7 @@
 				TargetAttributes = {
 					6D4BABDB1C5130A60042ADA0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 86SDT7KNNB;
 						LastSwiftMigration = 1000;
 					};
 				};
@@ -155,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED34C2D9224E84AB00D319EC /* Whip.wav in Resources */,
 				6D4BABEA1C5130A60042ADA0 /* LaunchScreen.storyboard in Resources */,
 				6D4BABE71C5130A60042ADA0 /* Assets.xcassets in Resources */,
 				6D4BABE51C5130A60042ADA0 /* Main.storyboard in Resources */,
@@ -241,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -290,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -303,9 +308,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86SDT7KNNB;
 				INFOPLIST_FILE = CoreMotionExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maximbilan.CoreMotionExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ionio.ara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -315,9 +321,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86SDT7KNNB;
 				INFOPLIST_FILE = CoreMotionExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maximbilan.CoreMotionExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ionio.ara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
